@@ -1,0 +1,53 @@
+.play {
+    background-color: lavender;
+
+    width: 300px;
+    box-shadow: 0 0 45px rgb(121, 121, 121);
+    border-radius: 10%;
+
+
+    .img-inner {
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+    }
+
+    .button-inner {
+        .btn {
+            font-size: 25px;
+            padding: 20px;
+            color: rgb(145, 144, 144);
+
+            &:hover {
+                color: rgb(65, 64, 64);
+            }
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            font-size: 14px;
+
+            img {
+                width: 20%;
+                border-radius: 10%;
+                margin-right: 20px;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            #name {
+                font-size: 15px;
+            }
+
+            #author {
+                font-size: 13px;
+            }
+        }
+    }
+}

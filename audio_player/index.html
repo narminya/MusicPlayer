@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/css/style.css">
+    <script src="https://kit.fontawesome.com/2225861a13.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+             
+                <div class="player mt-5" id="player">
+                    <div class="image-inner mb-2 p-1 " id="foo">
+                        <img src="https://tonimarino.co.uk/wp-content/uploads/2019/11/Abbey-Road-Album-Cover-800x800.jpg"
+                            alt="" id="img"></div>
+                    <div class="song-title">
+                        <p class="musicName mb-0 text-center" id="song-name">Thunder</p>
+                        <p class="authorName text-center" id="artist-name">Imagine dragons</p>
+                    </div>
+                    <div class="button-group d-flex mb-2 justify-content-center mb-2">
+
+                        <button id="backwardBtn" class="btn"><i class="fas fa-backward"></i></button>
+                        <button id="playBtn" class="btn"><i class="fas fa-play"></i></button>
+                        <button id="forwardBtn" class="btn"><i class="fas fa-forward"></i></button>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="fillBar"></div>
+                      </div>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="playlist mt-5">
+                        <ul class="play-list" id="playlist">
+                      
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

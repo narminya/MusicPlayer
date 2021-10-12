@@ -1,0 +1,170 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.player {
+    background: #262427;
+    padding: 50px;
+    height: 450px;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .15), 0 15px 35px 0 rgba(0, 105, 92, .5);
+
+    padding-top: 3rem;
+
+
+    .image-inner {
+
+
+        img {
+            width: 50%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            border: 2px solid pink;
+        }
+
+    }
+
+    .song-title {
+        p {
+            color: #c1c0c0;
+        }
+    }
+
+    .btn {
+        color: pink;
+        padding: 20px;
+        font-size: 20px;
+        outline: none;
+    }
+
+    .progress-bar {
+        margin-top: 20px;
+        background-color: pink;
+        height: 6px;
+        border-radius: 20px;
+        .fillBar {
+          background-color: rgb(221, 127, 142);
+          width: 0;
+          height: 6px;
+          border-radius: 20px;
+        }
+      }
+      .time {
+        font-size: 16px;
+        margin: 10px 0px;
+        height: 6px;
+      }
+}
+
+.foo {
+
+    background: #444;
+    animation: corner 3s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+    margin: auto;
+}
+
+$s: 100% / 8;
+$t: 0.001%;
+
+@keyframes corner {
+    #{$s * 0} {
+        border-top-left-radius: 1% 50%;
+    }
+
+    #{$s * 1} {
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    #{$s * 2} {
+        border-top-right-radius: 1% 50%;
+    }
+
+    #{$s * 2 + $t} {
+        border-top-right-radius: 50% 1%;
+    }
+
+    #{$s * 3} {
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+
+    #{$s * 4} {
+        border-bottom-right-radius: 50% 1%;
+    }
+
+    #{$s * 4 + $t} {
+        border-bottom-right-radius: 1% 50%;
+    }
+
+    #{$s * 5} {
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+
+    #{$s * 6} {
+        border-bottom-left-radius: 1% 50%;
+    }
+
+    #{$s * 6 + $t} {
+        border-bottom-left-radius: 50% 1%;
+    }
+
+    #{$s * 7} {
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+    }
+
+    #{$s * 8} {
+        border-top-left-radius: 50% 1%;
+    }
+}
+
+
+.playlist {
+    background: #262427;
+    height: 450px;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .15), 0 15px 35px 0 rgba(0, 105, 92, .5);
+ 
+
+    .play-list {
+        padding: 26px;
+        li {
+            background: none;
+            padding: 0;
+            margin: 0;
+            border: none;
+            padding: 10px;
+            transition: ease-in-out .2s all;
+            &:hover{
+                background: #54394c;
+            }
+           
+
+            p {
+                color: #c1c0c0;
+                margin-bottom: 0;
+            }
+            p.author{
+                font-size: 10px;
+                color: pink;
+            }
+&:last-child{
+    border-radius: 0;
+        
+}
+        }
+    }
+}
+
+
+#list{
+    color: pink;
+    padding: 20px;
+}

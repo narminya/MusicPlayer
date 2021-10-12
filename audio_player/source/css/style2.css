@@ -1,0 +1,51 @@
+.play {
+  background-color: lavender;
+  width: 300px;
+  -webkit-box-shadow: 0 0 45px #797979;
+          box-shadow: 0 0 45px #797979;
+  border-radius: 10%;
+}
+
+.play .img-inner {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.play .button-inner .btn {
+  font-size: 25px;
+  padding: 20px;
+  color: #919090;
+}
+
+.play .button-inner .btn:hover {
+  color: #414040;
+}
+
+.play ul {
+  margin: 0;
+  padding: 0;
+}
+
+.play ul li {
+  font-size: 14px;
+}
+
+.play ul li img {
+  width: 20%;
+  border-radius: 10%;
+  margin-right: 20px;
+}
+
+.play ul li p {
+  margin-bottom: 0;
+}
+
+.play ul li #name {
+  font-size: 15px;
+}
+
+.play ul li #author {
+  font-size: 13px;
+}
+/*# sourceMappingURL=style2.css.map */
